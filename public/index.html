@@ -32,9 +32,9 @@
                         viewBox="0 0 640 512">
                         <g class="fa-group">
                             <path fill="currentColor"
-                            d="M640 264v-16c0-8.84-7.16-16-16-16H344v-40h72c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32H224c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h72v40H16c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h104v40H64c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h304v40h-56c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h104c8.84 0 16-7.16 16-16zM256 128V64h128v64H256zm-64 320H96v-64h96v64zm352 0h-96v-64h96v64z"
-                            class="fa-primary">
-                        </path>
+                                d="M640 264v-16c0-8.84-7.16-16-16-16H344v-40h72c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32H224c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h72v40H16c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h104v40H64c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h304v40h-56c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h104c8.84 0 16-7.16 16-16zM256 128V64h128v64H256zm-64 320H96v-64h96v64zm352 0h-96v-64h96v64z"
+                                class="fa-primary">
+                            </path>
                         </g>
                     </svg>
                     <span class="link-text">Link</span>
@@ -73,60 +73,33 @@
     </nav>
 
     <main>
-        <h1>Ice Cream</h1>
-        <p>I'm baby plaid jean shorts retro, intelligentsia kombucha artisan authentic squid keytar pickled franzen
-            dreamcatcher. Af vexillologist shoreditch, lumbersexual franzen activated charcoal taiyaki drinking vinegar
-            kale chips. Raclette quinoa narwhal sartorial. Chartreuse deep v stumptown fam vaporware la croix. /n
+        <div class="grid">
+            <form class="search-bar" action="{% url 'search' %}" method="get">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search"
+                        class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                            d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+                        </path>
+                    </svg>
+                </button>
+            </form>
+            <a class="card">1</a>
+            <a class="card">2</a>
+            <a class="card">3</a>
+            <a class="card">4</a>
+            <a class="card">5</a>
+            <a class="card">6</a>
+            <a class="card">7</a>
+            <a class="card">8</a>
+            <div class="pagination">
+                <a>Prev</a>
+                <a>Current</a>
+                <a>Next</a>
+            </div>
+        </div>
 
-            Vape live-edge mumblecore la croix normcore, fingerstache 3 wolf moon tattooed bicycle rights taiyaki
-            tousled sustainable. Vegan vape waistcoat marfa. Vice pinterest chillwave, ugh lumbersexual drinking vinegar
-            master cleanse iPhone brunch fam 8-bit VHS humblebrag art party brooklyn. Crucifix fashion axe organic,
-            cardigan selvage hexagon leggings truffaut freegan af kogi shoreditch bicycle rights health goth. Craft beer
-            chia pok pok actually fanny pack locavore, af +1 copper mug shaman.
-
-            Hammock wayfarers cardigan enamel pin kogi tousled waistcoat leggings fashion axe sartorial whatever. IPhone
-            franzen chillwave tattooed retro. Intelligentsia seitan tbh celiac hexagon tilde. Chambray small batch
-            forage cray, fanny pack bespoke truffaut farm-to-table XOXO chicharrones palo santo. Shaman jianbing pok pok
-            subway tile. Kinfolk shabby chic sartorial, occupy coloring book pour-over air plant thundercats hot chicken
-            tbh. Jianbing pop-up lyft, meh keffiyeh ethical typewriter hella lomo messenger bag af viral selvage you
-            probably haven't heard of them cronut.
-
-            Hashtag master cleanse shabby chic pickled before they sold out echo park sriracha bushwick viral waistcoat
-            gochujang banjo. Kombucha lumbersexual echo park, enamel pin typewriter umami readymade fam distillery
-            selvage keytar. Green juice banh mi mumblecore, cardigan photo booth swag truffaut you probably haven't
-            heard of them heirloom vegan pour-over gochujang literally. Lyft cloud bread coloring book lomo bespoke af,
-            butcher fixie narwhal.
-
-            Actually lo-fi keffiyeh, street art kogi iceland master cleanse pour-over banjo readymade waistcoat next
-            level sartorial. Edison bulb af taxidermy, four loko meditation plaid art party chicharrones biodiesel
-            franzen gluten-free thundercats beard post-ironic. Helvetica kitsch cronut, chia distillery listicle
-            gentrify iPhone pabst bitters flannel. Vape distillery tumblr echo park normcore, scenester direct trade
-            next level synth. Pitchfork XOXO farm-to-table actually fashion axe kombucha lyft, kinfolk dreamcatcher
-            marfa scenester. Ennui squid tofu, gentrify la croix tacos everyday carry cronut. Forage bicycle rights
-            street art cred, shabby chic austin quinoa viral celiac whatever vaporware scenester cornhole health goth.
-
-            Plaid distillery direct trade cronut squid fixie williamsburg man braid normcore church-key pork belly man
-            bun coloring book. Synth echo park bicycle rights selvage you probably haven't heard of them beard mlkshk
-            butcher distillery gastropub ennui lo-fi edison bulb neutra. Coloring book jean shorts artisan enamel pin
-            pork belly selfies asymmetrical four loko yuccie cornhole art party hexagon green juice. VHS YOLO poke,
-            bushwick +1 chambray pork belly messenger bag migas etsy. Hot chicken offal yuccie typewriter, chicharrones
-            3 wolf moon kinfolk kombucha 8-bit literally jean shorts butcher franzen. Unicorn normcore hell of, selvage
-            tumeric fashion axe pabst fingerstache letterpress blog. Sriracha distillery kinfolk fanny pack glossier
-            enamel pin.
-
-            Kombucha iceland readymade prism poke microdosing, bespoke hell of listicle kitsch brunch squid ugh
-            church-key. Yr jianbing pour-over adaptogen, tumblr vegan mlkshk. Cardigan deep v lo-fi listicle slow-carb
-            fixie XOXO lumbersexual echo park semiotics raw denim banjo copper mug vice tofu. Cold-pressed YOLO locavore
-            four loko, mixtape tattooed pok pok chartreuse waistcoat. Neutra church-key vape chicharrones.
-
-            Poutine yuccie jianbing health goth, snackwave flannel roof party crucifix kickstarter offal air plant
-            helvetica. Pug portland tilde truffaut lumbersexual fam cred sartorial typewriter, master cleanse affogato
-            lomo meh succulents. Snackwave fanny pack yuccie, whatever celiac salvia sartorial marfa scenester truffaut
-            kogi dreamcatcher adaptogen. Jianbing meggings 3 wolf moon af, wolf vexillologist before they sold out
-            gastropub shabby chic subway tile. Flexitarian williamsburg tumeric scenester chartreuse. Palo santo tumeric
-            slow-carb taxidermy, deep v aesthetic etsy enamel pin affogato ethical kombucha. Vape man braid street art
-            taxidermy stumptown single-origin coffee banh mi post-ironic.
-
-            Dummy text? More like dummy thicc text, amirite?</p>
     </main>
 </body>
